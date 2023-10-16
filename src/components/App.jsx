@@ -1,12 +1,12 @@
 import { Layout } from 'components/Layout/Layout';
-// import { AppBar } from 'components/AppBar/AppBar';
-// import { TaskForm } from 'components/TaskForm/TaskForm';
-// import { TaskList } from 'components/TaskList/TaskList';
+import { AppBar } from 'components/AppBar/AppBar';
+import { TaskForm } from 'components/TaskForm/TaskForm';
+import { TaskList } from 'components/TaskList/TaskList';
 
 export const App = () => {
   return (
     <Layout>
-      <button
+      {/* <button
         style={{
           display: 'flex',
           fontSize: 22,
@@ -14,11 +14,11 @@ export const App = () => {
         }}
       >
         BUTTON
-      </button>
+      </button> */}
 
-      {/* <AppBar />
+      <AppBar />
       <TaskForm />
-      <TaskList /> */}
+      <TaskList />
     </Layout>
   );
 };
